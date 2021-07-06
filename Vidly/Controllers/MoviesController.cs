@@ -18,6 +18,7 @@ namespace Vidly.Controllers
                 Name = "Money Heist"
             };
 
+            //ViewData["Movie"] = movie;
             return View(movie);
 
         }
